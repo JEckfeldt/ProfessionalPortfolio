@@ -13,7 +13,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #778492;
 }
 
-header {  
-  margin: 1%;
+header {
+  height: 75vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-image: url(../assets/cougars.jpg);
+}
+
+.contact {
+  position: absolute;
+  right: 15px;
+}
+
+.icon {
+  margin: auto;
 }
