@@ -37,10 +37,10 @@
         </ul>
         <!-- contact buttons -->
         <div class="contact">
-          <a class="icon" href="#">
+          <a class="icon" href="https://www.linkedin.com/in/jacob-eckfeldt-7b2155194/">
             <i class="fa fa-linkedin-square fa-2x"></i>
           </a>
-          <a class="icon" href="#">
+          <a class="icon" href="https://github.com/JEckfeldt">
             <i class="fa fa-github fa-2x"></i>
           </a>
         </div>
@@ -54,7 +54,7 @@
     <aside class="position-absolute start-50" style="top: 150px; margin-right: 10%;"> 
       <h1 id="title">Jake A. Eckfeldt</h1>
       <hr class="myHr">
-      <h4 class="text-wrap font-family-monospace fs-4">I am an aspiring full-stack web developer. I attend Washington State University for a B.S. in Computer Science. I enjoy Jiu-Jitsu, cooking and learning new things.</h4>
+      <h4 class="text-wrap font-family-monospace fs-4">I am an aspiring full-stack web developer. I'm in my third year at Washington State University for a B.S. in Computer Science. I enjoy Jiu-Jitsu, cooking and learning new things.</h4>
     </aside>
   </header>
   <!-- end about -->
@@ -63,47 +63,128 @@
   <section class="container" id="projects">
     <div class="row">
       <!-- projects section -->
-      <aside class="col-md-7 mySection shadow-sm rounded">
+      <aside class="primary col-md-7 col-12 mySection shadow-sm rounded">
         <p class="fs-1 fw-bolder text-center">Projects</p>
         <hr class="myHr">
         <section class="row card-group">
           <!-- project cards -->
           <div class="col-md-6 d-flex justify-content-center">
             <div class="card projectCard" style="width: 18rem;">
-              <img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg" class="card-img-top" alt="...">
+              <img src="assets/currConvert.png" class="card-img-top" alt="Currency Converter">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                <p class="card-text fs-5 fw-bolder">Currency Converter</p>
+                <p class="card-text">A realtime crypto and fiat money converter.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="https://github.com/CharlotteFrancis/CurrencyConverter" class="btn btn-dark" style="margin-right: 25px;">Github</a>
+                <a href="https://charlottefrancis.github.io/CurrencyConverter/" class="btn btn-primary">Deployed Version</a>
               </div>
             </div>
           </div>
           <div class="col-md-6 d-flex justify-content-center">
             <div class="card projectCard" style="width: 18rem;">
-              <img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg" class="card-img-top" alt="...">
+              <img src="./assets/inkedin.png" class="card-img-top" alt="InkedIn">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                  content.
+                <p class="card-text fs-5 fw-bolder">InkedIn</p>
+                <p class="card-text">A tattoo collaboration website using sequelize and express.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a href="https://github.com/JEckfeldt/Project2Tattoo" class="btn btn-dark" style="margin-right: 25px;">Github</a>
+                <a href="https://agile-everglades-33019.herokuapp.com/" class="btn btn-primary">Deployed Version</a>
               </div>
             </div>
           </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="card projectCard" style="width: 18rem;">
+              <img src="./assets/empSystem.png" class="card-img-top" alt="Emp Management">
+              <div class="card-body">
+                <p class="card-text fs-5 fw-bolder">Employee Management</p>
+                <p class="card-text">An employee management system with mySQL and inquirer all in JavaScript 
+                </p>
+                <a href="https://github.com/JEckfeldt/EmployeeManagementSystem" class="btn btn-dark" style="margin-right: 25px;">Github</a>
+              </div>
+            </div>
+          </div>
+
           <!-- end cards -->
         </section>
       </aside>
       <!-- break column -->
       <aside class="col-md-1"></aside>
 
-      <aside class="col-md-4 mySection shadow-sm rounded">
-        <p class="fs-1 fw-bolder text-center">Skills</p>
-        <hr class="myHr">
+      <!-- add section below skills for education? -->
+      <!-- skills, education, contact -->
+      <aside class="secondary col-md-4 col-12">
+        <!-- contact Info -->
+        <section class="subsection shadow-sm rounded">
+          <p class="fs-1 fw-bolder text-center">Contact</p>
+          <hr class="myHr">
+          <ul class="no-bullets">
+            <li>
+              <i class="fa fa-envelope-square fa-2x contactIcon"></i>
+              <a href="mailto:jakeanthonydev@gmail.com">jakeanthonydev@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa fa-linkedin fa-2x contactIcon"></i>
+              <a href="https://www.linkedin.com/in/jacob-eckfeldt-7b2155194/">Jacob Eckfeldt</a>
+            </li>
+            <li>
+              <i class="fa fa-phone fa-2x contactIcon"></i>
+              <a href="#">(949)-561-8763</a>
+            </li>
+            <li>
+              <i class="fa fa-github fa-2x contactIcon"></i>
+              <a href="https://github.com/JEckfeldt">JEckfeldt</a>
+            </li>
+          </ul>
+        </section>
+        <!-- skills section -->
+        <section class="subsection shadow-sm rounded">
+          <p class="fs-1 fw-bolder text-center">Skills</p>
+          <hr class="myHr">
+          <ul class="col-md-6" style="margin-left: 20px;">
+            <li> JavaScript </li>
+            <li> C/C++ </li>
+            <li> HTML </li>
+            <li> CSS </li>
+            <li> Node </li>
+            <li> Express </li>
+            <li> Passport JS </li>
+            <li> Sequelize </li>
+          </ul>
+        </section>
+        <!-- education -->
+        <section class="subsection shadow-sm rounded">
+          <p class="fs-1 fw-bolder text-center">Education</p>
+          <hr class="myHr">
+          <ul class="no-bullets">
+            <li class="fw-bolder">
+              <i class="fa fa-graduation-cap fa-2x contactIcon"></i>
+              B.S. Computer Science
+              <p class="fw-normal">Washington State University (2019-Current)</p>
+            </li>
+            <li class="fw-bolder">
+              <i class="fa fa-graduation-cap fa-2x contactIcon"></i>
+              Full Stack Web Development
+              <p class="fw-normal">UCI Full Stack Bootcamp (2021)</p>
+            </li>
+          </ul>
+        </section>
       </aside>
     </div>
   </section>
 
+  <!-- footer -->
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container text-center">
+      <span class="text-muted" style="margin-right: 10px;">@Jake Eckfeldt</span>
+      <a class="icon" href="https://www.linkedin.com/in/jacob-eckfeldt-7b2155194/">
+        <i class="fa fa-linkedin-square fa-2x"></i>
+      </a>
+      <a class="icon" href="https://github.com/JEckfeldt">
+        <i class="fa fa-github fa-2x"></i>
+      </a>
+    </div>
+  </footer>
+  
   <!-- bootstrap js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

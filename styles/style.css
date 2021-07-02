@@ -53,3 +53,25 @@ header {
 .projectCard {
   margin-bottom: 10px;
 }
+
+.subsection {
+  background-color: white;
+  margin-top: 10px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+  margin-left: 15px;
+}
+
+.contactIcon {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
