@@ -8,17 +8,16 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  color: #778492;
+  font-weight: 350;
+  color: white;
 }
 
 header {
-  height: 75vh;
+  height: 85vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-image: url(../assets/cougars.jpg);
+  background-image: url(../assets/cougs.jpg);
 }
 
 .contact {
@@ -27,5 +26,11 @@ header {
 }
 
 .icon {
-  margin: auto;
+  margin-right: 3px;
+  margin-left: 3px;
+  color: black;
+}
+
+#title {
+  top: 100px;
 }
