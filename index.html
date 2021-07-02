@@ -32,7 +32,7 @@
             <a class="nav-link" aria-current="page" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
         </ul>
         <!-- contact buttons -->
@@ -53,20 +53,53 @@
   <header class="header container-fluid" id="about">
     <aside class="position-absolute start-50" style="top: 150px; margin-right: 10%;"> 
       <h1 id="title">Jake A. Eckfeldt</h1>
-      <hr style="margin-right: 20%;">
-      <h4 class="text-wrap font-family-monospace">I am an aspiring full-stack web developer. I attend Washington State University for a B.S. in Computer Science. I enjoy Jiu-Jitsu, cooking and learning new things.</h4>
+      <hr class="myHr">
+      <h4 class="text-wrap font-family-monospace fs-4">I am an aspiring full-stack web developer. I attend Washington State University for a B.S. in Computer Science. I enjoy Jiu-Jitsu, cooking and learning new things.</h4>
     </aside>
   </header>
   <!-- end about -->
 
-  <!-- projects and the -->
-  <section class="container">
+  <!-- projects and the skills section -->
+  <section class="container" id="projects">
     <div class="row">
-      <aside class="col-md-8">
-        asldjkfhlkasjdhlkfasdj
+      <!-- projects section -->
+      <aside class="col-md-7 mySection shadow-sm rounded">
+        <p class="fs-1 fw-bolder text-center">Projects</p>
+        <hr class="myHr">
+        <section class="row card-group">
+          <!-- project cards -->
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="card projectCard" style="width: 18rem;">
+              <img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <div class="card projectCard" style="width: 18rem;">
+              <img src="https://www.pixsy.com/wp-content/uploads/2021/04/ben-sweet-2LowviVHZ-E-unsplash-1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <!-- end cards -->
+        </section>
       </aside>
-      <aside class="col-md-4">
-        s;ldkhflaksjhdfas
+      <!-- break column -->
+      <aside class="col-md-1"></aside>
+
+      <aside class="col-md-4 mySection shadow-sm rounded">
+        <p class="fs-1 fw-bolder text-center">Skills</p>
+        <hr class="myHr">
       </aside>
     </div>
   </section>
