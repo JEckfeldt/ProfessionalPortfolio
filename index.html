@@ -62,24 +62,64 @@
   </header>
   <!-- end about -->
 
-  <!-- projects and the skills section -->
-  <section class="container" id="projects">
+  <!-- project section -->
+  <section class="container">
     <div class="row">
       <!-- projects section -->
-      <aside class="primary col-md-7 col-12 mySection shadow-sm rounded">
+      <aside class="primary col-md-7 col-12 mySection shadow-sm rounded" id="projects">
         <p class="fs-1 fw-bolder text-center">Projects</p>
         <hr class="myHr">
-        <section class="row card-group">
+        <section class="row container">
           <!-- project cards -->
-        
-
+          <div class="card col-md-6 projectCard" style="width: 18rem;">
+            <img src="./assets/zap.png" class="card-img-top" alt="ZAP">
+            <div class="projectTitle">
+              <p style="font-weight: bold; margin-left: 40%;">ZAP!</p>
+              <p style="margin-left: 10%;">React App for project and issue tracking using MongoDB</p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/2017mike/ZapBugTracker" class="btn btn-dark">Github</a>
+              <a href="https://zapbugtracker.herokuapp.com/about" class="btn btn-primary">Deployed Version</a>
+            </div>
+          </div>
+          <div class="card col-md-6 projectCard" style="width: 18rem;">
+            <img src="./assets/currConvert.png" class="card-img-top" alt="Currency Converter">
+            <div class="projectTitle">
+              <p style="font-weight: bold; margin-left: 25%;">Currency Converter</p>
+              <p style="margin-left: 10%;">Web App using APIs to get real time currency conversions</p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/CharlotteFrancis/CurrencyConverter" class="btn btn-dark">Github</a>
+              <a href="https://charlottefrancis.github.io/CurrencyConverter/" class="btn btn-primary">Deployed Version</a>
+            </div>
+          </div>
+          <div class="card col-md-6 projectCard" style="width: 18rem;">
+            <img src="./assets/linux.png" class="card-img-top" alt="TCP File System">
+            <div class="projectTitle">
+              <p style="font-weight: bold; margin-left: 25%;">TCP File System</p>
+              <p style="margin-left: 10%;">C Program for Client and Server file system with I/O manipulation</p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/JEckfeldt/Linux-File-System" class="btn btn-dark">Github</a>
+            </div>
+          </div>
+          <div class="card col-md-6 projectCard" style="width: 18rem;">
+            <img src="./assets/inkedin.png" class="card-img-top" alt="Inked In">
+            <div class="projectTitle">
+              <p style="font-weight: bold; margin-left: 40%;">InkedIn</p>
+              <p style="margin-left: 10%;">Tattoo Sharing app using SQL, JavaScript, HTML/CSS</p>
+            </div>
+            <div class="card-body">
+              <a href="https://github.com/JEckfeldt/InkedIn" class="btn btn-dark">Github</a>
+              <a href="https://agile-everglades-33019.herokuapp.com/" class="btn btn-primary">Deployed Version</a>
+            </div>
+          </div>
           <!-- end cards -->
         </section>
       </aside>
       <!-- break column -->
       <aside class="col-md-1"></aside>
 
-      <!-- add section below skills for education? -->
       <!-- skills, education, contact -->
       <aside class="secondary col-md-4 col-12">
         <!-- contact Info -->
@@ -139,6 +179,7 @@
         </section>
       </aside>
     </div>
+    
   </section>
 
   <!-- footer -->

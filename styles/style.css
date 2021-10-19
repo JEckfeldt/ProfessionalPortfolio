@@ -72,3 +72,16 @@ ul.no-bullets {
   margin-right: 5px;
   margin-bottom: 5px;
 }
+
+.projectCard {
+  margin: 20px;
+  border-color: grey;
+}
+
+.projects {
+  align-content: center;
+}
+
+.projecTitle {
+
+}
