@@ -12,4 +12,4 @@ My Personal Portfolio showcasing my web development skills
 - frequent descriptive commits
 
 # Usage
-Link to deployed website:
+Link to deployed website: https://jeckfeldt.github.io/ProfessionalPortfolio/
